@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f8;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 40px; /* Diperbesar */
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 500px; /* Diperbesar */
+  }
+  
+  .rounded-image {
+    width: 150px; /* Diperbesar */
+    height: 150px; /* Diperbesar */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 30px; /* Diperbesar */
+    border: 4px solid #3b82f6;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  .rounded-image:hover {
+    transform: scale(1.1); /* Efek zoom tetap sama */
+  }
+  
+  .name-box {
+    background-color: #3b82f6;
+    color: white;
+    padding: 15px; /* Diperbesar */
+    border-radius: 10px;
+    margin-bottom: 25px; /* Diperbesar */
+    font-size: 26px; /* Diperbesar */
+    font-weight: 600;
+    letter-spacing: 1.5px;
+  }
+  
+  .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 25px; /* Diperbesar */
+    margin-bottom: 30px; /* Diperbesar */
+  }
+  
+  .circle {
+    width: 40px; /* Diperbesar */
+    height: 40px; /* Diperbesar */
+    background-color: #3b82f6;
+    border-radius: 50%;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .circle:hover {
+    background-color: #2563eb;
+    transform: scale(1.2); /* Efek hover tetap sama */
+  }
+  
+  .time-box {
+    background-color: #3b82f6;
+    color: white;
+    padding: 20px; /* Diperbesar */
+    border-radius: 10px;
+    font-size: 20px; /* Diperbesar */
+    font-weight: 400;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #clock, #date {
+    margin: 10px 0; /* Diperbesar */
+  }
+  
